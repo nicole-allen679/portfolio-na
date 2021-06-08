@@ -2,24 +2,24 @@
   text-align: center;
 }
 
-.aboutMe {
-  justify-content: right;
-  background-color: beige;
-}
-
-.App-header {
+.header {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
-
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
 body {
   margin: 0;
-  background-color: aqua;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -30,4 +30,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.photoContainer {
+  display: flex;
+  background-color: blueviolet;
+}
+.photo {
+  height: 500px;
+  width: auto;
 }

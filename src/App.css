@@ -39,3 +39,8 @@ code {
   height: 500px;
   width: auto;
 }
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

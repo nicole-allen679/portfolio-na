@@ -21,14 +21,14 @@ function Header() {
           Thank you for visiting!
         </p>
         <div className="buttons">
-          <Button variant="dark" href="/nallen_resume_2021.pdf">
+          <Button className="btn" variant="outline-dark" href="/nallen_resume_2021.pdf" >
             Resume
           </Button>
-          <Button variant="dark" href="https://github.com/nicole-allen679">
+          <Button variant="outline-dark" href="https://github.com/nicole-allen679">
             GitHub
           </Button>
           <Button
-            variant="dark"
+            variant="outline-dark"
             href="https://www.linkedin.com/in/nicole-allen-37736b20b"
           >
             LinkedIn

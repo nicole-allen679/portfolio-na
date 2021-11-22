@@ -15,13 +15,13 @@ function Header() {
         <h1>Nicole (Nikki) Allen</h1>
         <span>Full-Stack Software Developer</span>
         <p>
-          Welcome to my portfolio! I am a Full-Stack Software Developer excited
-          to show off my skills in the Tech Industry. I come with an extensive
+          Welcome to my portfolio! I am a Full-Stack Software Developer having the time of my life
+          showing off my skills in the Tech Industry. I come with an extensive
           background in finance, production management, and customer service.
-          Thank you for visiting!
+          But, I have found my true calling in Software Development. 
         </p>
         <div className="buttons">
-          <Button className="btn" variant="outline-dark" href="/nallen_resume_2021.pdf" >
+          <Button className="btn" variant="outline-dark" href="/assets/Nicole Allen Resume.pdf" >
             Resume
           </Button>
           <Button variant="outline-dark" href="https://github.com/nicole-allen679">

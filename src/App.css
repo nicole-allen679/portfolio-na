@@ -67,3 +67,25 @@ code {
   height: 15vw;
   object-fit: cover;
 }
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 863px) {
+   
+  .header,
+  .about{
+    flex-direction: column;
+    width: 100%;
+    padding: 1%;
+  }
+  .photo{
+    width: 100%;
+    height: auto;
+  }
+  .cardImg{
+    width: 100%;
+    height: auto;
+  }
+  .projects{
+    flex-direction: column;
+    width: 100% !important;
+  }
+}
